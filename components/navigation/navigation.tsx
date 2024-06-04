@@ -1,13 +1,15 @@
-"use client"; // 작성을 안할시 use server 가 default라고 보면됨.
+"use client";
+// css 파일 모듈 화 styles + 파일 명
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import styles from "./navigation.module.css";
 
 export default function Navigation() {
     const path = usePathname();
 
     return (
-        <nav>
+        <nav className={styles.nav}>
             <ul>
                 <Link href="/">
                     <li>{path == '/' ? "Home!!!!" : "Home"}</li>

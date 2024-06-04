@@ -1,6 +1,6 @@
 // const component = async movieDate => 
-import MovieVideos from "../../../../components/movie-videos";
-import Movieinfo from "../../../../components/movie-info";
+import MovieVideos from "../../../../components/movie/movie-videos";
+import Movieinfo from "../../../../components/movie/movie-info";
 import { Suspense } from "react";
 
 

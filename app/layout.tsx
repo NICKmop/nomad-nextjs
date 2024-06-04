@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import Navigation from "../components/navigation"
+import Navigation from "../components/navigation/navigation"
 
 // () -> 그룹 지정
 // metadata 명칭 고정
