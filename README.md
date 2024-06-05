@@ -1,7 +1,9 @@
-"# nomad-nextjs" 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/NICKmop/nomad-nextjs.git
-git push -u origin main
+# npm init -y
+  -> license = MIT
+  
+# npm install react@latest next@latest react-dom@latest
+
+# pakage jon : script - "next dev"
+
+# create app/
+          - page.tsx
