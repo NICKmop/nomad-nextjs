@@ -22,8 +22,8 @@ export default async function HomePage() {
     
     return (
         <div className={styles.container}>
-            {JSON.stringify(movies)}
-            
+            {/* {JSON.stringify(movies)} */}
+
             { movies.map((movie) => {
                 return <MovieComponent 
                     key={movie.id}
