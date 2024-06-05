@@ -1,7 +1,6 @@
 import MovieComponent from '../../components/movie/movie';
 import styles from './home.module.css';
 import '../styles/global.css';
-import Link from 'next/link';
 
 
 export const metadata = {
